@@ -19,6 +19,7 @@ def predict(input_file):
     preds_ = pd.DataFrame()
     preds_['sex'] = preds
     preds_.to_csv('newsample_predictions_aian_shay_cardoso.csv', index=False)
+    print('Predictions saved as newsample_predictions...csv')
     
 if __name__ == '__main__':
     predict()
